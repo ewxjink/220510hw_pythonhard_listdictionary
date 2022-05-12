@@ -3,7 +3,7 @@ alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q",
 #0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6
 #a b c d e f g h i j k l m n o p q r s t u v w x y z
 #0부터 9까지 숫자와 문자 '-'가 들어있는 리스트 하나를 만들고, 리스트 명을 number로 해주세요
-number = [0,1,2,3,4,5,6,7,8,9,10]
+number = [0,1,2,3,4,5,6,7,8,9,10,"-"]
 
 sentence1 = alphabet[22] + alphabet[4] + alphabet[26] + alphabet[0] + alphabet[17] + alphabet[4] + alphabet[26] + alphabet[18] + alphabet[10] + alphabet[7] + alphabet[20] + alphabet[26] + alphabet[11] + alphabet[8] + alphabet[10] + alphabet[4] + alphabet[11] + alphabet[8] + alphabet[14] + alphabet[13] 
 print(sentence1)
@@ -18,7 +18,7 @@ print(sentence3)
 # 저장해준 후, print()문을 이용해 터미널에 출력되도록 해주세요
 birthday = str(number[2]) + str(number[0]) + str(number[0]) + str(number[2]) + str(number[1]) + str(number[2]) + str(number[3]) + str(number[0])
 print("제 생일은 %s입니다." % birthday)
-phone = str(number[0]) + str(number[1]) + str(number[0]) + "-" + str(number[4]) + str(number[9]) + str(number[1]) + str(number[6]) + "-" + str(number[2]) + str(number[9]) + str(number[9]) + str(number[4])
+phone = str(number[0]) + str(number[1]) + str(number[0]) + str(number[11]) + str(number[4]) + str(number[9]) + str(number[1]) + str(number[6]) + str(number[11]) + str(number[2]) + str(number[9]) + str(number[9]) + str(number[4])
 print("제 전화번호는 %s입니다." % phone)
 studentid = str(number[2]) + str(number[0]) + str(number[2]) + str(number[2]) + str(number[1]) + str(number[2]) + str(number[0]) + str(number[7]) + str(number[0])
 print("제 학번은 %s입니다." % studentid)
